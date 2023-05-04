@@ -1,0 +1,24 @@
+{
+  "name": "screenshot",
+  "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
+    "format": "prettier '**/*' --write --ignore-unknown"
+  },
+  "dependencies": {
+    "@edgio/express": "^6.1.4",
+    "@vercel/nft": "^0.22.6",
+    "express": "^4.18.2",
+    "playwright": "^1.29.2",
+    "playwright-aws-lambda": "^0.9.0",
+    "playwright-core": "^1.29.2"
+  },
+  "devDependencies": {
+    "@edgio/cli": "^6.1.4",
+    "@edgio/core": "^6.1.4",
+    "@edgio/devtools": "^6.1.4",
+    "@edgio/prefetch": "^6.1.4",
+    "prettier": "^2.8.8"
+  }
+}
